@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Dogcow' target in the 'Dogcow' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

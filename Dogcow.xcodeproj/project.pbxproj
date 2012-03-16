@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9458561151378C8000BCB3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9458560151378C8000BCB3C /* Cocoa.framework */; };
+		A945856B151378C8000BCB3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9458569151378C8000BCB3C /* InfoPlist.strings */; };
+		A945856D151378C8000BCB3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A945856C151378C8000BCB3C /* main.m */; };
+		A9458571151378C8000BCB3C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A945856F151378C8000BCB3C /* Credits.rtf */; };
+		A9458574151378C8000BCB3C /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9458573151378C8000BCB3C /* DCAppDelegate.m */; };
+		A9458577151378C8000BCB3C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9458575151378C8000BCB3C /* MainMenu.xib */; };
+		A945857F15137941000BCB3C /* DCDogcowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A945857E15137941000BCB3C /* DCDogcowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A945855C151378C8000BCB3C /* Dogcow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogcow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9458560151378C8000BCB3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9458563151378C8000BCB3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A9458564151378C8000BCB3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9458565151378C8000BCB3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9458568151378C8000BCB3C /* Dogcow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dogcow-Info.plist"; sourceTree = "<group>"; };
+		A945856A151378C8000BCB3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A945856C151378C8000BCB3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A945856E151378C8000BCB3C /* Dogcow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dogcow-Prefix.pch"; sourceTree = "<group>"; };
+		A9458570151378C8000BCB3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A9458572151378C8000BCB3C /* DCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAppDelegate.h; sourceTree = "<group>"; };
+		A9458573151378C8000BCB3C /* DCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAppDelegate.m; sourceTree = "<group>"; };
+		A9458576151378C8000BCB3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A945857D15137941000BCB3C /* DCDogcowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDogcowView.h; sourceTree = "<group>"; };
+		A945857E15137941000BCB3C /* DCDogcowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDogcowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9458559151378C8000BCB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9458561151378C8000BCB3C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9458551151378C7000BCB3C = {
+			isa = PBXGroup;
+			children = (
+				A9458566151378C8000BCB3C /* Dogcow */,
+				A945855F151378C8000BCB3C /* Frameworks */,
+				A945855D151378C8000BCB3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A945855D151378C8000BCB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A945855C151378C8000BCB3C /* Dogcow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A945855F151378C8000BCB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9458560151378C8000BCB3C /* Cocoa.framework */,
+				A9458562151378C8000BCB3C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9458562151378C8000BCB3C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9458563151378C8000BCB3C /* AppKit.framework */,
+				A9458564151378C8000BCB3C /* CoreData.framework */,
+				A9458565151378C8000BCB3C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A9458566151378C8000BCB3C /* Dogcow */ = {
+			isa = PBXGroup;
+			children = (
+				A9458572151378C8000BCB3C /* DCAppDelegate.h */,
+				A9458573151378C8000BCB3C /* DCAppDelegate.m */,
+				A945857D15137941000BCB3C /* DCDogcowView.h */,
+				A945857E15137941000BCB3C /* DCDogcowView.m */,
+				A9458575151378C8000BCB3C /* MainMenu.xib */,
+				A9458567151378C8000BCB3C /* Supporting Files */,
+			);
+			path = Dogcow;
+			sourceTree = "<group>";
+		};
+		A9458567151378C8000BCB3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9458568151378C8000BCB3C /* Dogcow-Info.plist */,
+				A9458569151378C8000BCB3C /* InfoPlist.strings */,
+				A945856C151378C8000BCB3C /* main.m */,
+				A945856E151378C8000BCB3C /* Dogcow-Prefix.pch */,
+				A945856F151378C8000BCB3C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A945855B151378C8000BCB3C /* Dogcow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A945857A151378C8000BCB3C /* Build configuration list for PBXNativeTarget "Dogcow" */;
+			buildPhases = (
+				A9458558151378C8000BCB3C /* Sources */,
+				A9458559151378C8000BCB3C /* Frameworks */,
+				A945855A151378C8000BCB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dogcow;
+			productName = Dogcow;
+			productReference = A945855C151378C8000BCB3C /* Dogcow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9458553151378C7000BCB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Duckcode;
+			};
+			buildConfigurationList = A9458556151378C7000BCB3C /* Build configuration list for PBXProject "Dogcow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9458551151378C7000BCB3C;
+			productRefGroup = A945855D151378C8000BCB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A945855B151378C8000BCB3C /* Dogcow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A945855A151378C8000BCB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945856B151378C8000BCB3C /* InfoPlist.strings in Resources */,
+				A9458571151378C8000BCB3C /* Credits.rtf in Resources */,
+				A9458577151378C8000BCB3C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9458558151378C8000BCB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945856D151378C8000BCB3C /* main.m in Sources */,
+				A9458574151378C8000BCB3C /* DCAppDelegate.m in Sources */,
+				A945857F15137941000BCB3C /* DCDogcowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9458569151378C8000BCB3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A945856A151378C8000BCB3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A945856F151378C8000BCB3C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9458570151378C8000BCB3C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A9458575151378C8000BCB3C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9458576151378C8000BCB3C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9458578151378C8000BCB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9458579151378C8000BCB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A945857B151378C8000BCB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dogcow/Dogcow-Prefix.pch";
+				INFOPLIST_FILE = "Dogcow/Dogcow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A945857C151378C8000BCB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dogcow/Dogcow-Prefix.pch";
+				INFOPLIST_FILE = "Dogcow/Dogcow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9458556151378C7000BCB3C /* Build configuration list for PBXProject "Dogcow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9458578151378C8000BCB3C /* Debug */,
+				A9458579151378C8000BCB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A945857A151378C8000BCB3C /* Build configuration list for PBXNativeTarget "Dogcow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A945857B151378C8000BCB3C /* Debug */,
+				A945857C151378C8000BCB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9458553151378C7000BCB3C /* Project object */;
+}
